@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Introdução'/>
+        <page name='Constante e variável'/>
+        <page name='Declaração de variáveis'/>
+        <page name='Trabalhando com variáveis'/>
+        <page name='Atalho'/>
+        <page name='Mudanças confusas'/>
+        <page name='Vamos tentar alterar uma constante'/>
+        <page name='Você decide'/>
+        <page name='Códigos mais seguros em um mundo dinâmico'/>
+        <page name='Códigos mais seguros em um mundo inesperado'/>
+        <page name='Encerramento'/>
+        <page name='Exercício – Lista de compras'/>
+        <page name='Exercício – 501'/>
+    </pages>
+</playground>

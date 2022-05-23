@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "18884F39-923E-4E71-8AB1-D31BFCA35BFF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2C15F59-2DDB-453D-9BE8-8EE705060C0D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AulaMapKitUnicesumarTarde/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F2C15F59-2DDB-453D-9BE8-8EE705060C0D - 46c61da7799415b1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AulaMapKitUnicesumarTarde.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AulaMapKitUnicesumarTarde.ViewController"
+                  moduleName = "AulaMapKitUnicesumarTarde"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Downloads/Renan%20Tonon/AulaMapKitUnicesumarTarde/AulaMapKitUnicesumarTarde/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "F2C15F59-2DDB-453D-9BE8-8EE705060C0D - e93ad9539ac333e8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AulaMapKitUnicesumarTarde.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AulaMapKitUnicesumarTarde.ViewController"
+                  moduleName = "AulaMapKitUnicesumarTarde"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Downloads/Renan%20Tonon/AulaMapKitUnicesumarTarde/AulaMapKitUnicesumarTarde/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "F2C15F59-2DDB-453D-9BE8-8EE705060C0D - 189578b7e2a1e023"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AulaMapKitUnicesumarTarde.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AulaMapKitUnicesumarTarde.ViewController&gt;"
+                  moduleName = "AulaMapKitUnicesumarTarde"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Downloads/Renan%20Tonon/AulaMapKitUnicesumarTarde/AulaMapKitUnicesumarTarde/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "F2C15F59-2DDB-453D-9BE8-8EE705060C0D - d55be5e2e7a1b116"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AulaMapKitUnicesumarTarde.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AulaMapKitUnicesumarTarde.ViewController&gt;"
+                  moduleName = "AulaMapKitUnicesumarTarde"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Downloads/Renan%20Tonon/AulaMapKitUnicesumarTarde/AulaMapKitUnicesumarTarde/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  uuid = "F2C15F59-2DDB-453D-9BE8-8EE705060C0D - 3199d1ec42e23567"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AulaMapKitUnicesumarTarde.ViewController.__deallocating_deinit"
+                  moduleName = "AulaMapKitUnicesumarTarde"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Downloads/Renan%20Tonon/AulaMapKitUnicesumarTarde/AulaMapKitUnicesumarTarde/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

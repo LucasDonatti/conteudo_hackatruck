@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Introdução'/>
+        <page name='Primeiras palavras'/>
+        <page name='Como lidar com maiúsculas e minúsculas'/>
+        <page name='Perguntas especiais'/>
+        <page name='Respostas padrão'/>
+        <page name='Juntando tudo'/>
+        <page name='Encerramento'/>
+    </pages>
+</playground>

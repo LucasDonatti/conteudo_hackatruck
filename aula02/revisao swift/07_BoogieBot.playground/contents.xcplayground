@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='osx' auto-termination-delay='21' display-mode='rendered'>
+    <pages>
+        <page name='Introdução'/>
+        <page name='Visualizações dinâmicas'/>
+        <page name='Academia de dança'/>
+        <page name='APIs'/>
+        <page name='Coreografias'/>
+        <page name='Assine seu trabalho'/>
+        <page name='Compartilhe o Boogie'/>
+        <page name='Algoritmos'/>
+        <page name='Encerramento'/>
+        <page name='Oficina de dança 1'/>
+        <page name='Oficina de dança 2'/>
+        <page name='Oficina de dança 3'/>
+        <page name='Oficina de dança 4'/>
+    </pages>
+</playground>

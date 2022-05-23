@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "d5b4dca8-014d-4f34-aa4e-cf5f69184663",
+		"name": "Lucas Donatti",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Pessoas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://noderedaluno10202202.kgsx7kocpw2.us-south.codeengine.appdomain.cloud/pessoa",
+					"protocol": "https",
+					"host": [
+						"noderedaluno10202202",
+						"kgsx7kocpw2",
+						"us-south",
+						"codeengine",
+						"appdomain",
+						"cloud"
+					],
+					"path": [
+						"pessoa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Pessoa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Lucas Franciscon Donatti\",\n    \"cidade\": \"Maringá\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://noderedaluno10202202.kgsx7kocpw2.us-south.codeengine.appdomain.cloud/pessoa",
+					"protocol": "https",
+					"host": [
+						"noderedaluno10202202",
+						"kgsx7kocpw2",
+						"us-south",
+						"codeengine",
+						"appdomain",
+						"cloud"
+					],
+					"path": [
+						"pessoa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Pessoa Pelo ID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Lucas Francisco Donattiiiiiii\",\n    \"cidade\": \"Maringá\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://noderedaluno10202202.kgsx7kocpw2.us-south.codeengine.appdomain.cloud/pessoa",
+					"protocol": "https",
+					"host": [
+						"noderedaluno10202202",
+						"kgsx7kocpw2",
+						"us-south",
+						"codeengine",
+						"appdomain",
+						"cloud"
+					],
+					"path": [
+						"pessoa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Pessoa Pelo ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"_id\": \"4f15478e811caffaf2cd35f635387475\",\n    \"_rev\": \"1-2e572d6e1ed444540da9a73781531a10\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://noderedaluno10202202.kgsx7kocpw2.us-south.codeengine.appdomain.cloud/pessoa",
+					"protocol": "https",
+					"host": [
+						"noderedaluno10202202",
+						"kgsx7kocpw2",
+						"us-south",
+						"codeengine",
+						"appdomain",
+						"cloud"
+					],
+					"path": [
+						"pessoa"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

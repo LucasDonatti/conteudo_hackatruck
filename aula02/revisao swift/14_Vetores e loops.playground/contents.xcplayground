@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Lists'/>
+        <page name='Literais de vetores'/>
+        <page name='Índices'/>
+        <page name='Contagem'/>
+        <page name='Tipos'/>
+        <page name='Processamento de vetores'/>
+        <page name='Loops'/>
+        <page name='Vetores mutáveis'/>
+        <page name='Adição de itens'/>
+        <page name='Remoção de itens'/>
+        <page name='Substituição de itens'/>
+        <page name='Encerramento'/>
+        <page name='Exercício – Contagem'/>
+        <page name='Exercício – Apresentador de karaokê'/>
+        <page name='Exercício – Contagem de votos'/>
+        <page name='Exercício – Objetivos'/>
+        <page name='Exercício – Filtro de mensagens'/>
+    </pages>
+</playground>

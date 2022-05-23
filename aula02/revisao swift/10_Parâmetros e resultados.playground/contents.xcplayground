@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Introdução'/>
+        <page name='Do específico ao geral'/>
+        <page name='Sua comida preferida'/>
+        <page name='Informar mais valores'/>
+        <page name='Outras coisas preferidas'/>
+        <page name='Retorno de valores'/>
+        <page name='Devolução de valores'/>
+        <page name='Tipos de funções'/>
+        <page name='Componentes básicos'/>
+        <page name='Nomenclatura'/>
+        <page name='Nomes de parâmetros e rótulos de argumentos'/>
+        <page name='O argumento sem nome'/>
+        <page name='Encerramento'/>
+        <page name='Exercício – O verbo e o substantivo'/>
+        <page name='Exercício – Uso de valores de retorno'/>
+        <page name='Exercício – Rótulo de argumento'/>
+        <page name='Exercício – Sem rótulo de argumento'/>
+    </pages>
+</playground>

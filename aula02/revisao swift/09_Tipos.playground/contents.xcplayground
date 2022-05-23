@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Introdução'/>
+        <page name='Tipos'/>
+        <page name='A camiseta preferida'/>
+        <page name='Tipos e variáveis'/>
+        <page name='Segurança de tipos'/>
+        <page name='Tipos e literais'/>
+        <page name='Inferência de tipos a partir de atribuições'/>
+        <page name='Anotação de tipos'/>
+        <page name='De onde vêm os tipos?'/>
+        <page name='Além da biblioteca padrão'/>
+        <page name='Importação de estruturas'/>
+        <page name='Encerramento'/>
+        <page name='Exercício – Círculos'/>
+    </pages>
+</playground>

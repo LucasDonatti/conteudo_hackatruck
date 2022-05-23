@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s2u-89-CIz">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tela Roxa-->
+        <scene sceneID="M26-KQ-gPH">
+            <objects>
+                <viewController id="eUh-dQ-Jxk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tTr-Fi-ulg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="J3k-ml-OV2"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tela Roxa" image="cloud.moon.fill" catalog="system" id="bcF-yj-55K"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cek-S8-Moi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-301" y="43"/>
+        </scene>
+        <!--Verde View Controller-->
+        <scene sceneID="kXd-mg-nL4">
+            <objects>
+                <viewController id="4dz-Yg-U8T" customClass="VerdeViewController" customModule="AulaStoryBoardUnicesumarTarde" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PiR-v4-dRs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="informe uma cor" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aCK-hd-g5W">
+                                <rect key="frame" x="5" y="431" width="404" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aCK-hd-g5W" firstAttribute="leading" secondItem="vjv-Hu-emu" secondAttribute="leading" constant="5" id="I0a-kG-k28"/>
+                            <constraint firstItem="aCK-hd-g5W" firstAttribute="centerY" secondItem="PiR-v4-dRs" secondAttribute="centerY" id="m1Q-EM-FWb"/>
+                            <constraint firstItem="vjv-Hu-emu" firstAttribute="trailing" secondItem="aCK-hd-g5W" secondAttribute="trailing" constant="5" id="vto-6u-kIm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vjv-Hu-emu"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZOK-fl-B8q">
+                        <barButtonItem key="rightBarButtonItem" title="Navegar" id="Yln-r2-ULl">
+                            <connections>
+                                <segue destination="qKT-bT-HSb" kind="show" identifier="novaCor" id="mqe-aU-7ZG"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="corOrigemUITextField" destination="aCK-hd-g5W" id="GOw-uJ-Cct"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hQc-dg-e4U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="608.69565217391312" y="-605.35714285714278"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="VXO-IC-wW7">
+            <objects>
+                <tabBarController id="s2u-89-CIz" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="E5t-wp-zi4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="DBt-Ld-ZSE" kind="relationship" relationship="viewControllers" id="Umg-mJ-R8O"/>
+                        <segue destination="eUh-dQ-Jxk" kind="relationship" relationship="viewControllers" id="mmx-pV-U1Z"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="hrK-B2-7I3"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sHH-wa-ZUH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1384" y="-281"/>
+        </scene>
+        <!--Nova Cor View Controller-->
+        <scene sceneID="rgn-4X-FVL">
+            <objects>
+                <viewController id="qKT-bT-HSb" customClass="NovaCorViewController" customModule="AulaStoryBoardUnicesumarTarde" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EnF-OE-2h5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tht-cU-tLe">
+                                <rect key="frame" x="5" y="438" width="404" height="21"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Tht-cU-tLe" firstAttribute="leading" secondItem="Af6-1J-3ng" secondAttribute="leading" constant="5" id="TGb-By-mNm"/>
+                            <constraint firstItem="Af6-1J-3ng" firstAttribute="bottom" secondItem="Tht-cU-tLe" secondAttribute="bottom" constant="354" id="gTF-HI-yyM"/>
+                            <constraint firstItem="Tht-cU-tLe" firstAttribute="top" secondItem="Af6-1J-3ng" secondAttribute="top" constant="350" id="iZF-KI-9g0"/>
+                            <constraint firstItem="Af6-1J-3ng" firstAttribute="trailing" secondItem="Tht-cU-tLe" secondAttribute="trailing" constant="5" id="ygh-dE-MM9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Af6-1J-3ng"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8MA-NB-keB"/>
+                    <connections>
+                        <outlet property="corDestinoUILabel" destination="Tht-cU-tLe" id="cHU-YU-Nwb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a0j-Uy-7Lz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1562" y="-605"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AulaStoryBoardUnicesumarTarde" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="l8c-OA-Hax"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1384" y="518"/>
+        </scene>
+        <!--Tela Verde-->
+        <scene sceneID="hdF-7O-vyQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DBt-Ld-ZSE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Tela Verde" image="globe" catalog="system" id="sAG-IN-erU"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ikk-TY-ndK">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4dz-Yg-U8T" kind="relationship" relationship="rootViewController" id="whs-wY-Ukd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7mh-bl-8fS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-301.44927536231887" y="-605.35714285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cloud.moon.fill" catalog="system" width="64" height="42"/>
+        <image name="globe" catalog="system" width="64" height="60"/>
+    </resources>
+</document>
